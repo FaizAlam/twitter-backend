@@ -11,6 +11,7 @@ export class HashtagsController {
 
     @Get("/:tag/posts")
     getPostsForHashtag(@Param() param):string{
+        //TODO: add actual logic
         return `show all posts with hashtag ${param.tag}`;
     }
     
